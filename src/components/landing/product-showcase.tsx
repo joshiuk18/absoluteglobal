@@ -16,11 +16,11 @@ export function ProductShowcase() {
               <span className="sr-only">Product placeholder {i + 1}</span>
 
 
-              <div className="grid grid-cols-1 gap-4 p-4">
+              <div className="grid grid-cols-1 gap-4">
                 {landingProducts.map((item) => (
                   <div
                     key={item.id}
-                    className="bg-white rounded-lg p-2 flex flex-col relative hover:shadow-lg transition h-[450px]"
+                    className="bg-white rounded-lg p-2 flex flex-col relative hover:shadow-lg transition h-[500px]"
                   >
 
                     <div className="absolute top-3 left-3 bg-white text-gray-800 px-3 py-1 rounded-full shadow text-xs font-semibold z-10">
@@ -33,7 +33,7 @@ export function ProductShowcase() {
                       alt={item.title}
                       width={250}
                       height={200}
-                      className="rounded-md object-contain mb-2 w-full h-48"
+                      className="rounded-md object-fill mb-2 w-full h-48"
                     />
 
 
@@ -61,9 +61,9 @@ export function ProductShowcase() {
           ))}
         </div>
 
-        <p className="mt-8 text-center text-sm text-slate-600">
+        {/* <p className="mt-8 text-center text-sm text-slate-600">
           Product listings will appear here when your catalog is connected.
-        </p>
+        </p> */}
       </div>
     </section>
   );

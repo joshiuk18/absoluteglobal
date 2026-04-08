@@ -9,5 +9,5 @@ export default function ShopLayout({
 }: Readonly<{
   children: ReactNode;
 }>) {
-  return children;
+  return children
 }

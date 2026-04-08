@@ -6,6 +6,7 @@ import { ProductShowcase } from "@/components/landing/product-showcase";
 import { SectionHeading } from "@/components/landing/section-heading";
 import { TestimonialShowcase } from "@/components/landing/testimonials-showcase";
 import { SectionGuarantee } from "@/components/landing/section-guarantee";
+import { CategoryFooter } from "@/components/landing/category-footer";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function HomePage() {
       <SectionGuarantee />
       <SectionHeading title="Testimonials" id="testimonials" />
       <TestimonialShowcase />
+      <CategoryFooter />
     </div>
   );
 }

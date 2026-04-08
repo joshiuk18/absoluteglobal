@@ -34,24 +34,28 @@ export function SectionGuarantee() {
             </div>
 
             <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 py-6">
-                {landingsGuarantees.map((item) => (
-                    <div
-                        key={item.id}
-                        className="p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition"
-                    >
-                        <div className="mb-4 h-14 w-14 flex items-center justify-center rounded-lg bg-gray-100">
-                            icon
+                {landingsGuarantees.map((item) => {
+                    const Icon = item.icon;
+
+                    return (
+                        <div
+                            key={item.id}
+                            className="p-5 bg-white rounded-xl shadow-sm hover:shadow-md transition"
+                        >
+                            <div className="mb-4 h-14 w-14">
+                                <Icon />
+                            </div>
+
+                            <h3 className="font-semibold text-lg mb-2">
+                                {item.title}
+                            </h3>
+
+                            <p className="text-gray-500 text-sm">
+                                {item.content}
+                            </p>
                         </div>
-
-                        <h3 className="font-semibold text-lg mb-2">
-                            {item.title}
-                        </h3>
-
-                        <p className="text-gray-500 text-sm">
-                            {item.content}
-                        </p>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </section>
     );
