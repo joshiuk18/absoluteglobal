@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image'
 
 import { useCallback, useEffect, useState } from "react";
 
@@ -52,12 +53,13 @@ export function HeroCarousel() {
                 aria-hidden
               />
               <div className="absolute inset-0 flex flex-col items-center justify-center px-4 text-center text-white">
-                <p className="mb-2 max-w-xl text-xs font-semibold uppercase tracking-[0.2em] text-white/95 sm:text-sm">
+                <Image src={`${s.img}`} alt={s.title} fill className='rounded-xl' />
+                {/* <p className="mb-2 max-w-xl text-xs font-semibold uppercase tracking-[0.2em] text-white/95 sm:text-sm">
                   {s.eyebrow}
                 </p>
                 <h2 className="max-w-3xl text-2xl font-bold uppercase tracking-tight sm:text-3xl md:text-4xl">
                   {s.title}
-                </h2>
+                </h2> */}
               </div>
             </div>
           ))}
@@ -75,9 +77,8 @@ export function HeroCarousel() {
               role="tab"
               aria-selected={i === active}
               aria-label={`Show slide ${i + 1}`}
-              className={`h-2.5 w-2.5 rounded-full transition sm:h-3 sm:w-3 ${
-                i === active ? "bg-slate-700" : "bg-slate-300 hover:bg-slate-400"
-              }`}
+              className={`h-2.5 w-2.5 rounded-full transition sm:h-3 sm:w-3 ${i === active ? "bg-slate-700" : "bg-slate-300 hover:bg-slate-400"
+                }`}
               onClick={() => go(i)}
             />
           ))}

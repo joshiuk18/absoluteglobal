@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "absoluteglobal.in",
-        pathname: "/wp-content/uploads/**",
+        pathname: "/images/absoluteGlobal.jpg",
       },
     ],
   },

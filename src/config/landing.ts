@@ -5,10 +5,10 @@
  */
 
 export const landingCategories = [
-  { slug: "fashion", label: "Fashion" },
-  { slug: "health-personal-care", label: "Health & Personal care" },
-  { slug: "electronics", label: "Electronics" },
-  { slug: "spiritual-articles", label: "Spiritual Articles" },
+  { slug: "fashion", label: "Fashion", img: "/categories/Fashion.jpg" },
+  { slug: "health-personal-care", label: "Health & Personal care", img: "/categories/Healthcare.jpg" },
+  { slug: "electronics", label: "Electronics", img: "/categories/Electronics.jpg" },
+  { slug: "spiritual-articles", label: "Spiritual Articles", img: "/categories/Spiritual.jpg" },
 ] as const;
 
 /** `tone` picks a CSS gradient placeholder in `HeroCarousel` until real art is added. */
@@ -18,23 +18,27 @@ export const landingHeroSlides = [
     tone: 0,
     eyebrow: "BEAUTYFUL AND EXCLUSIVE CRYSTALS",
     title: "FOR YOUR INNER SELF",
+    img: "/heroSlides/pic4.jpg"
   },
   {
     id: "2",
     tone: 1,
     eyebrow: "PREMIUM COLLECTION",
     title: "CRAFTED FOR YOU",
+    img: "/heroSlides/pic3.jpg"
   },
   {
     id: "3",
     tone: 2,
     eyebrow: "WELLNESS & CARE",
     title: "ELEVATE YOUR ROUTINE",
+    img: "/heroSlides/pic2.jpg"
   },
   {
     id: "4",
     tone: 3,
     eyebrow: "DISCOVER MORE",
     title: "SHOP THE LATEST",
+    img: "/heroSlides/pic1.jpg"
   },
 ] as const;
