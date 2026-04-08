@@ -16,11 +16,11 @@ export function ProductShowcase() {
               <span className="sr-only">Product placeholder {i + 1}</span>
 
 
-              <div className="grid grid-cols-1 gap-4 p-2">
+              <div className="grid grid-cols-1 gap-4 p-4">
                 {landingProducts.map((item) => (
                   <div
                     key={item.id}
-                    className="bg-white rounded-lg p-2 flex flex-col relative hover:shadow-lg transition h-[450px]" // thoda bada fixed height
+                    className="bg-white rounded-lg p-2 flex flex-col relative hover:shadow-lg transition h-[450px]"
                   >
 
                     <div className="absolute top-3 left-3 bg-white text-gray-800 px-3 py-1 rounded-full shadow text-xs font-semibold z-10">

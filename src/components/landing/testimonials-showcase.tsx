@@ -24,9 +24,9 @@ export function TestimonialShowcase() {
     return (
         <section className="border-t border-slate-200/80 bg-[var(--ag-page)] pb-16 pt-2">
             <div className="mx-auto max-w-6xl px-4 relative">
-                <ul className="relative min-h-[180px]">
+                <div className="relative min-h-[180px]">
                     {landingTestimonials.map((item, i) => (
-                        <li
+                        <div
                             key={item.id}
                             className="absolute inset-0 transition-opacity duration-500 ease-out flex flex-col items-center justify-center"
                             style={{
@@ -44,9 +44,9 @@ export function TestimonialShowcase() {
                             <p className="text-center text-sm text-slate-500">
                                 {item.location}
                             </p>
-                        </li>
+                        </div>
                     ))}
-                </ul>
+                </div>
             </div>
 
             <div
