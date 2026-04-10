@@ -83,7 +83,7 @@ export function CategoryFooter() {
                                     {section.category.map((cat) => (
                                         <li key={cat.id}>
                                             <Link
-                                                href={`/${cat.slug}`}
+                                                href={`/policies/${cat.slug}`}
                                                 className="hover:text-cyan-600 transition"
                                             >
                                                 {cat.title}

@@ -5,10 +5,10 @@
  */
 
 export const landingCategories = [
-  { slug: "fashion", label: "Fashion", img: "/categories/Fashion.jpg" },
-  { slug: "health-personal-care", label: "Health & Personal care", img: "/categories/Healthcare.jpg" },
-  { slug: "electronics", label: "Electronics", img: "/categories/Electronics.jpg" },
-  { slug: "spiritual-articles", label: "Spiritual Articles", img: "/categories/Spiritual.jpg" },
+  { slug: "fashion", label: "Fashion", img: "/category/Fashion/Fashion.jpg" },
+  { slug: "health-personal-care", label: "Health & Personal care", img: "/category/Health&PersonalCare/Healthcare.jpg" },
+  { slug: "electronics", label: "Electronics", img: "/category/Electronics/Electronics.jpg" },
+  { slug: "spiritual-articles", label: "Spiritual Articles", img: "/category/Spiritual/Spiritual.jpg" },
 ] as const;
 
 /** `tone` picks a CSS gradient placeholder in `HeroCarousel` until real art is added. */
