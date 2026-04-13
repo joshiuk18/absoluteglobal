@@ -18,27 +18,48 @@ export const landingHeroSlides = [
     tone: 0,
     eyebrow: "BEAUTYFUL AND EXCLUSIVE CRYSTALS",
     title: "FOR YOUR INNER SELF",
-    img: "/heroSlides/pic4.jpg"
+    img: "/heroSlides/1.jpg"
   },
   {
     id: "2",
     tone: 1,
     eyebrow: "PREMIUM COLLECTION",
     title: "CRAFTED FOR YOU",
-    img: "/heroSlides/pic3.jpg"
+    img: "/heroSlides/2.png"
   },
   {
     id: "3",
     tone: 2,
     eyebrow: "WELLNESS & CARE",
     title: "ELEVATE YOUR ROUTINE",
-    img: "/heroSlides/pic2.jpg"
+    img: "/heroSlides/3.png"
   },
   {
     id: "4",
     tone: 3,
     eyebrow: "DISCOVER MORE",
     title: "SHOP THE LATEST",
-    img: "/heroSlides/pic1.jpg"
+    img: "/heroSlides/4.png"
+  },
+  {
+    id: "5",
+    tone: 1,
+    eyebrow: "PREMIUM COLLECTION",
+    title: "CRAFTED FOR YOU",
+    img: "/heroSlides/5.png"
+  },
+  {
+    id: "6",
+    tone: 2,
+    eyebrow: "WELLNESS & CARE",
+    title: "ELEVATE YOUR ROUTINE",
+    img: "/heroSlides/6.jpg"
+  },
+  {
+    id: "7",
+    tone: 3,
+    eyebrow: "DISCOVER MORE",
+    title: "SHOP THE LATEST",
+    img: "/heroSlides/7.jpeg"
   },
 ] as const;

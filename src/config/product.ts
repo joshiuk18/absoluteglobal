@@ -1,8 +1,9 @@
 export const landingProducts = [
     {
         "id": 1,
-        "slug": "fashion",
-        "category": "Fashion",
+        "category": "fashion",
+        "label": "Fashion",
+        "img": "/category/Fashion/Fashion.jpg",
         "products": [
             {
                 "id": "f1",
@@ -18,142 +19,9 @@ export const landingProducts = [
     },
     {
         "id": 2,
-        "slug": "spiritual-articles",
-        "category": "Spiritual Articles",
-        "products": [
-            {
-                "id": "s1",
-                "slug": "crystal-bracelet",
-                "category": "Crystal",
-                "title": "7 Chakra Crystal Bracelet",
-                "oldPrice": 499,
-                "newPrice": 399,
-                "rating": 5,
-                "img": "/category/Spiritual/CrystalBracelet.webp"
-            },
-            {
-                "id": "s2",
-                "slug": "crystal-bracelet",
-                "category": "Festive & Pooja Articles",
-                "title": "Absolute Global Money Magnet Pyrite Pyramid Authentically Crafted with Pyrite Crystal, Gomti Chakra, Rudraksh & Shree Yantra to Attract Prosperity, Success & Growth, Ideal Vastu Chakra",
-                "oldPrice": 999,
-                "newPrice": 599,
-                "rating": 5,
-                "img": "/category/Spiritual/Pyramid.png"
-            },
-            {
-                "id": "s3",
-                "slug": "crystal-bracelet",
-                "category": "Crystal",
-                "title": "Golden Pyrite Bracelet",
-                "oldPrice": 899,
-                "newPrice": 699,
-                "rating": 5,
-                "img": "/category/Spiritual/GoldenBracelet.jpg"
-            },
-        ]
-    },
-    {
-        "id": 3,
-        "slug": "electronics",
-        "category": "Electronics",
-        "products": [
-            {
-                "id": "e1",
-                "slug": "led-bulb",
-                "category": "Electronics",
-                "title": "Absolute Global 100W Rechargeable Emergency LED bulb| Inverter Bulb for  4 hours battery backup| rechargeable emergency bulb for Power Cuts | Pack of 1",
-                "oldPrice": 499,
-                "newPrice": 282,
-                "rating": 5,
-                "img": "/category/Electronics/ledbulb.png"
-            },
-            {
-                "id": "e2",
-                "slug": "bluetooth-speaker-with-microphone",
-                "category": "Electronics",
-                "title": "ABSOLUTE GLOBAL Bluetooth Speaker with Microphone - Portable Wireless PA System with LED Lights, TWS Function, FM Radio, Recording, and Remote Control – Perfect for Parties, and Outdoor Events for kids",
-                "oldPrice": 999,
-                "newPrice": 329,
-                "rating": 5,
-                "img": "/category/Electronics/microphone.jpg"
-            },
-            {
-                "id": "e3",
-                "slug": "electric-hot-water-bag",
-                "category": "Electronics",
-                "title": "Absolute Global Electric Hot Water Bag Heating Gel Pad for Pain Relief Rechargeable Heat Pack for Back, Neck, Cramps & Joint Pain – Portable Warm Compress",
-                "oldPrice": 499,
-                "newPrice": 219,
-                "rating": 5,
-                "img": "/category/Electronics/hotwaterbag2.jpg"
-            },
-            {
-                "id": "e4",
-                "slug": "electric-hot-water-bag",
-                "category": "Electronics",
-                "title": "Absolute Global Ross Electric Hot Water Bag & Heating Pad - Pain Relief Solution with Hand Warmer Pockets, Soft Fabric, Fast Heating, Ideal for Back Pain, Cramps & Winter Comfort (Multicolour)",
-                "oldPrice": 499,
-                "newPrice": 219,
-                "rating": 5,
-                "img": "/category/Electronics/hotwaterbag1.jpg"
-            },
-            {
-                "id": "e5",
-                "slug": "double-fan-mini-tower-cooler",
-                "category": "Electronics",
-                "title": "Double Fan MiNi Tower Cooler for Room Cooling MiNi Cooler Air Cooler Portable Air Conditioner for Home Office Artic 3 In 1 Conditioner MiNi Cooler RGB Color",
-                "oldPrice": 1899,
-                "newPrice": 799,
-                "rating": 5,
-                "img": "/category/Electronics/minicooler.jpg"
-            },
-            {
-                "id": "e6",
-                "slug": "smart-watch",
-                "category": "Electronics",
-                "title": "NOISE Colorfit Pulse Grand 2 Smart Watch | Space Blue",
-                "oldPrice": 5999,
-                "newPrice": 1399,
-                "rating": 5,
-                "img": "/category/Electronics/smartwatch.webp"
-            },
-            {
-                "id": "e7",
-                "slug": "hair-trimmer",
-                "category": "Daily Needs",
-                "title": "Pack of 1 New Professional Hair Trimmer, Cordless, Rechargeable Battery, Adjustable Blade ( Assorted Color )",
-                "oldPrice": 699,
-                "newPrice": 279,
-                "rating": 5,
-                "img": "/category/Electronics/trimmer.jpg"
-            },
-            {
-                "id": "e8",
-                "slug": "personal-fan",
-                "category": "Electronics",
-                "title": "Pack of 1 Personal Fan Random Color with Base Cute Handheld Fan for Home Party Camping Home & Garden | Home Improvement | Heating, Cooling & Air ( Assorted Color )",
-                "oldPrice": 299,
-                "newPrice": 199,
-                "rating": 5,
-                "img": "/category/Electronics/fan.jpeg"
-            },
-            {
-                "id": "e9",
-                "slug": "emergency-bulb",
-                "category": "Daily Needs",
-                "title": "Rocklight RL-89 8 hrs Bulb Emergency Light ( Assorted Color )",
-                "oldPrice": 499,
-                "newPrice": 229,
-                "rating": 5,
-                "img": "/category/Electronics/bulb.jpg"
-            },
-        ]
-    },
-    {
-        "id": 4,
-        "slug": "health-personal-care",
-        "category": "Health & Personal care",
+        "category": "health-personal-care",
+        "label": "Health & Personal care",
+        "img": "/category/Health&PersonalCare/Healthcare.jpg",
         "products": [
             {
                 "id": "h1",
@@ -346,5 +214,142 @@ export const landingProducts = [
             },
         ]
     },
+    {
+        "id": 3,
+        "category": "electronics",
+        "label": "Electronics",
+        "img": "/category/Electronics/Electronics.jpg",
+        "products": [
+            {
+                "id": "e1",
+                "slug": "led-bulb",
+                "category": "Electronics",
+                "title": "Absolute Global 100W Rechargeable Emergency LED bulb| Inverter Bulb for  4 hours battery backup| rechargeable emergency bulb for Power Cuts | Pack of 1",
+                "oldPrice": 499,
+                "newPrice": 282,
+                "rating": 5,
+                "img": "/category/Electronics/ledbulb.png"
+            },
+            {
+                "id": "e2",
+                "slug": "bluetooth-speaker-with-microphone",
+                "category": "Electronics",
+                "title": "ABSOLUTE GLOBAL Bluetooth Speaker with Microphone - Portable Wireless PA System with LED Lights, TWS Function, FM Radio, Recording, and Remote Control – Perfect for Parties, and Outdoor Events for kids",
+                "oldPrice": 999,
+                "newPrice": 329,
+                "rating": 5,
+                "img": "/category/Electronics/microphone.jpg"
+            },
+            {
+                "id": "e3",
+                "slug": "electric-hot-water-bag",
+                "category": "Electronics",
+                "title": "Absolute Global Electric Hot Water Bag Heating Gel Pad for Pain Relief Rechargeable Heat Pack for Back, Neck, Cramps & Joint Pain – Portable Warm Compress",
+                "oldPrice": 499,
+                "newPrice": 219,
+                "rating": 5,
+                "img": "/category/Electronics/hotwaterbag2.jpg"
+            },
+            {
+                "id": "e4",
+                "slug": "electric-hot-water-bag-heating-pad",
+                "category": "Electronics",
+                "title": "Absolute Global Ross Electric Hot Water Bag & Heating Pad - Pain Relief Solution with Hand Warmer Pockets, Soft Fabric, Fast Heating, Ideal for Back Pain, Cramps & Winter Comfort (Multicolour)",
+                "oldPrice": 499,
+                "newPrice": 219,
+                "rating": 5,
+                "img": "/category/Electronics/hotwaterbag1.jpg"
+            },
+            {
+                "id": "e5",
+                "slug": "double-fan-mini-tower-cooler",
+                "category": "Electronics",
+                "title": "Double Fan MiNi Tower Cooler for Room Cooling MiNi Cooler Air Cooler Portable Air Conditioner for Home Office Artic 3 In 1 Conditioner MiNi Cooler RGB Color",
+                "oldPrice": 1899,
+                "newPrice": 799,
+                "rating": 5,
+                "img": "/category/Electronics/minicooler.jpg"
+            },
+            {
+                "id": "e6",
+                "slug": "smart-watch",
+                "category": "Electronics",
+                "title": "NOISE Colorfit Pulse Grand 2 Smart Watch | Space Blue",
+                "oldPrice": 5999,
+                "newPrice": 1399,
+                "rating": 5,
+                "img": "/category/Electronics/smartwatch.webp"
+            },
+            {
+                "id": "e7",
+                "slug": "hair-trimmer",
+                "category": "Daily Needs",
+                "title": "Pack of 1 New Professional Hair Trimmer, Cordless, Rechargeable Battery, Adjustable Blade ( Assorted Color )",
+                "oldPrice": 699,
+                "newPrice": 279,
+                "rating": 5,
+                "img": "/category/Electronics/trimmer.jpg"
+            },
+            {
+                "id": "e8",
+                "slug": "personal-fan",
+                "category": "Electronics",
+                "title": "Pack of 1 Personal Fan Random Color with Base Cute Handheld Fan for Home Party Camping Home & Garden | Home Improvement | Heating, Cooling & Air ( Assorted Color )",
+                "oldPrice": 299,
+                "newPrice": 199,
+                "rating": 5,
+                "img": "/category/Electronics/fan.jpeg"
+            },
+            {
+                "id": "e9",
+                "slug": "emergency-bulb",
+                "category": "Daily Needs",
+                "title": "Rocklight RL-89 8 hrs Bulb Emergency Light ( Assorted Color )",
+                "oldPrice": 499,
+                "newPrice": 229,
+                "rating": 5,
+                "img": "/category/Electronics/bulb.jpg"
+            },
+        ]
+    },
+    {
+        "id": 4,
+        "category": "spiritual-articles",
+        "label": "Spiritual Articles",
+        "img": "/category/Spiritual/Spiritual.jpg",
+        "products": [
+            {
+                "id": "s1",
+                "slug": "7-chakra-crystal-bracelet",
+                "category": "Crystal",
+                "title": "7 Chakra Crystal Bracelet",
+                "oldPrice": 499,
+                "newPrice": 399,
+                "rating": 5,
+                "img": "/category/Spiritual/CrystalBracelet.webp"
+            },
+            {
+                "id": "s2",
+                "slug": "pyrite-pyramid-money-magnet",
+                "category": "Festive & Pooja Articles",
+                "title": "Absolute Global Money Magnet Pyrite Pyramid Authentically Crafted with Pyrite Crystal, Gomti Chakra, Rudraksh & Shree Yantra to Attract Prosperity, Success & Growth, Ideal Vastu Chakra",
+                "oldPrice": 999,
+                "newPrice": 599,
+                "rating": 5,
+                "img": "/category/Spiritual/Pyramid.png"
+            },
+            {
+                "id": "s3",
+                "slug": "golden-pyrite-bracelet",
+                "category": "Crystal",
+                "title": "Golden Pyrite Bracelet",
+                "oldPrice": 899,
+                "newPrice": 699,
+                "rating": 5,
+                "img": "/category/Spiritual/GoldenBracelet.jpg"
+            },
+        ]
+    },
+
 
 ] as const;

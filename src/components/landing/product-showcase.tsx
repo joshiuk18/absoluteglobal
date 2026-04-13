@@ -3,11 +3,14 @@ import Link from "next/link";
 import { landingProducts } from "@/config/product";
 
 export function ProductShowcase() {
-  // const placeholders = Array.from({ length: 8 }, (_, i) => i);
 
-  const products = landingProducts.flatMap(item =>
-    item.products.slice(0, 2)
+  const products = landingProducts.flatMap(group =>
+    group.products.slice(0, 2).map(product => ({
+      ...product,
+      groupCategory: group.category,
+    }))
   );
+
 
   return (
     <section className="border-t border-slate-200/80 bg-[var(--ag-page)] pb-16 pt-2">
@@ -18,8 +21,8 @@ export function ProductShowcase() {
               key={item.id}
               className="bg-white rounded-lg p-2 flex flex-col relative hover:shadow-lg transition h-[500px]"
             >
-              <Link
-                href={`/category/${item.category}/${item.slug}`}>
+
+              <Link href={`/category/${item.groupCategory}/${item.slug}`}>
                 <div className="absolute top-3 left-3 bg-white text-gray-800 px-3 py-1 rounded-full shadow text-xs font-semibold z-10">
                   Sale!
                 </div>
@@ -32,6 +35,7 @@ export function ProductShowcase() {
                   height={200}
                   className="rounded-md object-fill mb-2 w-full h-48"
                 />
+
               </Link>
 
 
